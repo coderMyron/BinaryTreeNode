@@ -39,7 +39,7 @@ three.traversePreOrder { (num) in
 }  
 print("后序遍历")  
 three.traversePostOrder { (num) in  
-    print("\(num)")  
+        print("\(num)")  
 }  
 
 ### 打印
