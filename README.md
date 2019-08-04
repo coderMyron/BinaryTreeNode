@@ -31,8 +31,7 @@ five.rightChild = six
 
 print("中序遍历")  
 three.traverseInOrder { (num) in  
-    > print("\(num)")  
-    >> AA
+    print("\(num)")  
 }  
 print("前序遍历")  
 three.traversePreOrder { (num) in  
