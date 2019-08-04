@@ -3,8 +3,10 @@
 
 ## 中序遍历
 遍历顺序：对当前节点的左子节点进行中序遍历 --> 当前节点 --> 对当前节点的右子节点进行中序遍历，简称左根右。
+
 ## 前序遍历
 遍历顺序：当前节点 --> 对当前节点的左子节点进行前序遍历 --> 对当前节点的右子节点进行前序遍历，简称根左右。
+
 ## 后序遍历
 遍历顺序：对当前节点的左子节点进行后序遍历 --> 对当前节点的右子节点进行后序遍历 --> 当前节点，简称左右根。
 
@@ -29,15 +31,15 @@ five.rightChild = six
 
 print("中序遍历")  
 three.traverseInOrder { (num) in  
-    print("\(num)")  
+    >print("\(num)")  
 }  
 print("前序遍历")  
 three.traversePreOrder { (num) in  
-    print("\(num)")  
+    > print("\(num)")  
 }  
 print("后序遍历")  
 three.traversePostOrder { (num) in  
-    print("\(num)")  
+    >>print("\(num)")  
 }  
 
 ### 打印
