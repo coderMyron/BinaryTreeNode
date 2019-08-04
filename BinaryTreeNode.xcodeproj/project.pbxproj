@@ -14,6 +14,7 @@
 		A1373DB722F70F22000B44B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1373DB522F70F22000B44B2 /* LaunchScreen.storyboard */; };
 		A1373DC222F70F22000B44B2 /* BinaryTreeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1373DC122F70F22000B44B2 /* BinaryTreeNodeTests.swift */; };
 		A1373DCD22F70F22000B44B2 /* BinaryTreeNodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1373DCC22F70F22000B44B2 /* BinaryTreeNodeUITests.swift */; };
+		A1373DDB22F70F3D000B44B2 /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1373DDA22F70F3D000B44B2 /* BinaryTreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A1373DC822F70F22000B44B2 /* BinaryTreeNodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryTreeNodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1373DCC22F70F22000B44B2 /* BinaryTreeNodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNodeUITests.swift; sourceTree = "<group>"; };
 		A1373DCE22F70F22000B44B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1373DDA22F70F3D000B44B2 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A1373DB322F70F22000B44B2 /* Assets.xcassets */,
 				A1373DB522F70F22000B44B2 /* LaunchScreen.storyboard */,
 				A1373DB822F70F22000B44B2 /* Info.plist */,
+				A1373DDA22F70F3D000B44B2 /* BinaryTreeNode.swift */,
 			);
 			path = BinaryTreeNode;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				A1373DAF22F70F21000B44B2 /* ViewController.swift in Sources */,
 				A1373DAD22F70F21000B44B2 /* AppDelegate.swift in Sources */,
+				A1373DDB22F70F3D000B44B2 /* BinaryTreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +443,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.BinaryTreeNode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.BinaryTreeNode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
